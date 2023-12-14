@@ -1,9 +1,9 @@
 <?php
-$host = 'localhost:8111'; // nama host database
+$host = 'localhost'; // nama host database
 $dbname = 'coffee_shop'; // nama database
 $username = 'root'; // nama pengguna database
 $password = ''; // kata sandi database
-$koneksi = mysqli_connect("localhost:8111", "root", "", "coffee_shop");
+$koneksi = mysqli_connect("localhost", "root", "", "coffee_shop");
 
 try {
     // membuat koneksi ke database

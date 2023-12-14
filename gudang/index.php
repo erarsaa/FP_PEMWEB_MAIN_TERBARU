@@ -213,7 +213,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <form method="POST" action="stock.php">
+                <form method="POST" action="index.php">
                   <div class="mb-3">
                     <label for="produkId" class="form-label">Stok ID</label>
                     <?php
@@ -300,7 +300,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <form method="POST" action="stock.php">
+                <form method="POST" action="index.php">
                   <div class="mb-3">
                     <label for="namaProduk" class="form-label">Nama Produk</label>
                     <br>
